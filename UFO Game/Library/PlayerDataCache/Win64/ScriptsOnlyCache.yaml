@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - CameraController
     - PlayerController
     - Rotator
+    - obstaclemovement
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
@@ -52,6 +53,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9384}
     - Class: 114
       Script: {instanceID: 10338}
+    - Class: 114
+      Script: {instanceID: 13924}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -677,7 +680,7 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: 0647140ea428e67a0bfc1fe52790a8a1
+      Hash: 4d0caae187cc4ea1f265fe89fdfb8145
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -723,8 +726,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: obstaclemovement
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/Awesome/Documents/Unity assignments/UFO Game/UFO Final Build/UFO
+  playerPath: C:/Users/Awesome/Documents/GitHub/Unity-Tutorial-assignments/UFO Game/DavisJasmineChallenge1Dig3480/UFO
     Game.exe
