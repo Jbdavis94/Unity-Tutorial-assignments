@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Main.unity
+- path: C:/Users/Awesome/Documents/GitHub/Unity-Tutorial-assignments/2D Platformer/Assets/Scenes/Platformer.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
