@@ -12,16 +12,11 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float tilt;
     public Boundary boundary;
-
     public GameObject shot;
     public Transform shotSpawn;
     public float fireRate;
 
     private float nextFire;
-    public AudioClip musicClipOne;
-    public AudioSource musicSource;
-
-    private Rigidbody rb;
 
     void Update()
     {
@@ -32,12 +27,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private Rigidbody rb;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        musicSource.clip = musicClipOne;
-        musicSource.Play();
     }
+
     void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
