@@ -1,0 +1,13 @@
+sceneSetups:
+- path: Assets/Scenes/Timed Mode.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/Main Game.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Title Menu.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
