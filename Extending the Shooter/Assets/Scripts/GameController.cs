@@ -76,7 +76,7 @@ public class GameController : MonoBehaviour
                 titlescreen = true;
                 win = false;
                 audioSource = GetComponent<AudioSource>();
-                audioSource.Play(1);  
+                audioSource.Play();  
                 break;
             }
             else if (win)
@@ -85,7 +85,7 @@ public class GameController : MonoBehaviour
                 titlescreen = true;
                 gameOver = false;
                 audioSource = GetComponent<AudioSource>();
-                audioSource.Play(2);
+                audioSource.Play();
                 break;
             }
         }
